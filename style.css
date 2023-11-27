@@ -1,0 +1,476 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Barlow+Condensed:wght@100&family=Castoro&family=Chonburi&family=Fjalla+One&family=Istok+Web&family=League+Spartan&family=Merriweather&family=Open+Sans:wght@300&family=Oswald:wght@400;500&family=Playfair+Display:wght@400;500&family=Poppins&family=Roboto:wght@100&family=Voltaire&family=Wix+Madefor+Display&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Overflow settings */
+html {
+   overflow-y: hidden;
+} 
+
+/* Body styles */
+body {
+    background-color: #ffffff;
+}
+
+/* Dark Mode */
+.darkmode {
+  position: absolute;
+  left: 3.2%;
+  bottom: 5%;
+  font-size: 2rem;
+  opacity: 0.8;
+  cursor: pointer;
+  
+}
+
+/* Light Mode */
+.sun {
+  position: absolute;
+  left: 3.2%;
+  bottom: 5%;
+  font-size: 2rem;
+  opacity: 0.8;
+  display: none;
+  cursor: pointer;
+}
+
+/* Image Shadows */
+img {
+    filter: drop-shadow(0px 60px 40px #000000c7);
+  }
+
+/* Year Navigation Styles */
+.vertical-navbar ul {
+  position: absolute;
+  left: 7%;
+  top: 0%;
+}
+
+.vertical-navbar li {
+  list-style: none;
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: -0.2rem;
+  -webkit-text-stroke: 1px #000000; 
+  cursor: pointer;
+  padding: 80px;
+  color: transparent;
+  &:hover {
+  color: black;
+  }
+}
+
+/* Box Styles */
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 5%;
+  right: 0%;
+  z-index: 2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #55865e;
+  overflow: hidden;
+  color: #e6dda7;
+}
+
+/* Year Styles (Bold) */
+.box1 h1, h3, .box2  h1, h3, .box3 h1, h3, .box4 h1, h3, .box5 h1, h3, .box6 h1, h3 {
+  font-size: 6rem;
+  position: absolute;
+  right: 15%;
+  top: 8%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.2rem;
+}
+
+/* Transparent Year Styles */
+.box1 h3, .box2 h3, .box3 h3, .box4 h3, .box5 h3, .box6 h3 {
+  font-size: 3rem;
+  right: 7%;
+  top: 10%;
+  -webkit-text-stroke: 1px #e6dda7c4; 
+  color: transparent;
+}
+
+/* Logo Porsche Styles */
+.box1 .logo, .box2 .logo, .box3 .logo, .box4 .logo, .box5 .logo, .box6 .logo{
+  position: absolute;
+    top: 15%;
+    left: 13%;
+    width: 45px;
+}
+
+/* Title Styles */
+.box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2, .box6 h2 {
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  left: 20%;
+  top: 12%;
+}
+
+/* Porsche Image Styles */
+.box1 .img-porsche {
+  position: absolute;
+  width: 900px;
+  left: 5%;
+  bottom: 8%;
+}
+
+/* Class Styles for Porsche */
+.box1 .classe, .box2 .classe, .box3 .classe, .box4 .classe, .box5 .classe, .box6 .classe {
+  position: absolute;
+  right: 7%;
+  bottom: 45%;
+  color: #000000cc;
+  border-top: 2px solid  #e6dda73f;
+  border-bottom: 4px solid  #e6dda77a;
+  font-size: 16px;
+  width: 140px;
+  height: 120px;
+  font-weight: bold;
+  color: #e6dda7;
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box1 .classe p, .box2 .classe p, .box3 .classe p, .box4 .classe p, .box5 .classe p, .box6 .classe p {
+  position: absolute;
+  left: 10px;
+  bottom: 35px;
+}  
+
+/* Read More Button Styles */
+.box1 .readmore, .box2 .readmore, .box3 .readmore, .box4 .readmore, .box5 .readmore, .box6 .readmore {
+  position: absolute;
+  right: 7%;
+  bottom: 20%;
+  background-color: #fff;
+  color: #000000cc;
+  font-size: 15px;
+  width: 140px;
+  height: 120px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p {
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+}
+
+/* Specific Styles for Each Box */
+
+/* BOX 2 */
+.box2 {
+  top: 85%;
+  background-color: rgb(219, 199, 98);
+  color: rgb(250, 241, 224); 
+}
+.box2 h3 {
+  -webkit-text-stroke: 1px rgb(255, 255, 255); 
+}
+
+.box2 .img-porsche{
+  position: absolute;
+  width: 1200px;
+  left: -7%;
+  bottom: 8%;
+}
+
+.box2 .classe {
+color:  rgb(255, 249, 245);
+border-top: 2px solid rgba(255, 249, 245, 0.612);
+border-bottom: 4px solid rgb(255, 249, 245);
+}
+
+/* BOX3  */
+.box3 {
+  top: 165%;
+  background-color: rgb(165, 145, 140);
+  color: rgb(255, 249, 245); 
+}
+
+.box3 h3 {
+  -webkit-text-stroke: 1px rgb(255, 249, 245); 
+}
+
+.box3 .classe {
+color: rgb(255, 249, 245);
+}
+
+.box3 .img-porsche{
+  position: absolute;
+  width: 900px;
+  left: 5%;
+  bottom: 0%;
+}
+
+/* BOX4  */
+.box4 {
+  top: 245%;
+  background-color: rgb(174, 45, 45);
+  color:  #e6dda7; 
+}
+
+.box4 .img-porsche{
+  position: absolute;
+  width: 800px;
+  left: 7%;
+  bottom: 10%;
+}
+
+/* BOX5  */
+.box5 {
+  top: 325%;
+  background-color: #1b479a;
+  color:  #abdbe3; 
+}
+
+.box5 .img-porsche{
+  position: absolute;
+  width: 750px;
+  left: 9%;
+  bottom: 12%;
+}
+
+.box5 h3 {
+-webkit-text-stroke: 1px #abdbe3; 
+}
+
+.box5 .classe {
+color:  #abdbe3; 
+}
+
+.box5 .classe {
+color:  #abdbe3; 
+border-top: 2px solid  #abdbe3;
+border-bottom: 4px solid  #abdbe3;
+}
+    
+/* BOX6 */
+.box6 {
+  top: 405%;
+  background-color: #b5babe;
+  color: #000000; 
+}
+
+.box6 .img-porsche{
+  position: absolute;
+  width: 900px;
+  left: 5%;
+  bottom: 2%;
+}
+
+/* Transparent Year Styles */
+.box6 h3 {
+  -webkit-text-stroke: 1px #000000; 
+ }
+
+.box6 .classe {
+color: #000000cc;
+border-top: 2px solid  #0000003f;
+border-bottom: 4px solid  #0000007a;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+@media screen and (max-width: 1536px)  {
+  .vertical-navbar li {
+    font-size: 3rem;
+    padding: 90px;
+  }
+
+  /* Title Styles */
+  .box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2, .box6 h2 {
+  font-size: 3rem;
+  }
+
+  /* Year Styles (Bold) */
+  .box1 h1, h3, .box2  h1, h3, .box3 h1, h3, .box4 h1, h3, .box5 h1, h3, .box6 h1, h3 {
+    font-size: 5rem;
+  }
+
+  /* Transparent Year Styles */
+  .box1 h3, .box2 h3, .box3 h3, .box4 h3, .box5 h3, .box6 h3 {
+    font-size: 3rem;
+  }
+
+  /* Class Styles for Porsche */
+  .box1 .classe, .box2 .classe, .box3 .classe, .box4 .classe, .box5 .classe, .box6 .classe {
+    width: 120px;
+    height: 100px;
+  }
+  
+  /* Read More Button Styles */
+  .box1 .readmore, .box2 .readmore, .box3 .readmore, .box4 .readmore, .box5 .readmore, .box6 .readmore {
+    width: 120px;
+    height: 100px;
+    font-size: 10px;
+  }
+
+  /* Porsche Image Styles */
+  /* Adjustments for Porsche images in different boxes */
+  .box1 .img-porsche {
+    width: 700px;
+    bottom: 3%;
+  }
+  .box2 .img-porsche{
+    width: 1000px;
+    bottom: 3%;
+  }
+
+  .box3 .img-porsche{
+    width: 750px;
+    bottom: -5%;
+  }
+
+  .box4 .img-porsche{
+    width: 700px;    
+  }
+
+  .box5 .img-porsche{
+    width: 650px;
+    left: 9%;
+    bottom: 13%;
+  }
+
+  .box6 .img-porsche{
+    width: 850px;
+    left: 3%;
+    bottom: 0%;
+  }
+}
+
+@media screen and (width: 1340px) {
+  /* Title Styles */
+  .box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2, .box6 h2 {
+  font-size: 1.8rem;
+  }
+  /* Bold Year Styles */
+  .box1 h1, h3, .box2  h1, h3, .box3 h1, h3, .box4 h1, h3, .box5 h1, h3, .box6 h1, h3 {
+    font-size: 4rem;
+  }
+  /* Transparent Year Styles */
+  .box1 h3, .box2 h3, .box3 h3, .box4 h3, .box5 h3, .box6 h3 {
+    font-size: 2.5rem;
+  }
+
+  /* Class Styles for Porsche */
+  .box1 .classe, .box2 .classe, .box3 .classe, .box4 .classe, .box5 .classe, .box6 .classe {
+    width: 120px;
+    height: 100px;
+  }
+    
+  /* Read More Button Styles */
+  .box1 .readmore, .box2 .readmore, .box3 .readmore, .box4 .readmore, .box5 .readmore, .box6 .readmore {
+    width: 120px;
+    height: 100px;
+  }
+
+  /* Porsche Image Styles */
+  /* Adjustments for Porsche images in different boxes */
+  .box1 .img-porsche {
+    width: 650px;
+    bottom: 10%;
+  }
+  .box2 .img-porsche{
+    width: 1000px;
+    bottom: 15%;
+    left: -10%;
+  }
+  .box3 .img-porsche{
+    width: 750px;
+    bottom: 5%;
+  }
+  .box4 .img-porsche{
+    width: 650px; 
+    bottom: 20%;   
+  }
+  .box5 .img-porsche{
+    width: 620px;
+    left: 9%;
+    bottom: 20%;
+  }
+  .box6 .img-porsche{
+    width: 700px;
+    left: 3%;
+    bottom: 10%;
+  }
+}
+
+/* Media query for screens up to 1300px width */
+@media screen and (max-width:1300px) {
+
+  /* Title Styles */
+  .box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2, .box6 h2 {
+  font-size: 2rem;
+  }
+
+  /* Bold Year Styles */
+  .box1 h1, h3, .box2  h1, h3, .box3 h1, h3, .box4 h1, h3, .box5 h1, h3, .box6 h1, h3 {
+    font-size: 3rem;
+  }
+
+  /* Transparent Year Styles */
+  .box1 h3, .box2 h3, .box3 h3, .box4 h3, .box5 h3, .box6 h3 {
+    font-size: 2.1rem;
+  }
+
+  .box1 .classe, .box2 .classe, .box3 .classe, .box4 .classe, .box5 .classe, .box6 .classe {
+    width: 110px;
+    height: 100px;
+  }
+  
+  /* Class Styles for Porsche */
+  .box1 .readmore, .box2 .readmore, .box3 .readmore, .box4 .readmore, .box5 .readmore, .box6 .readmore {
+    width: 110px;
+    height: 100px;
+  }
+
+  /* Porsche Image Styles */
+  /* Adjustments for Porsche images in different boxes */
+  .box1 .img-porsche {
+    width: 600px;
+    bottom: 10%;
+  }
+  .box2 .img-porsche{
+    width: 800px;
+    bottom: 15%;
+    left: -10%;
+  }
+  .box3 .img-porsche{
+    width: 600px;
+    bottom: 5%;
+  }
+  .box4 .img-porsche{
+    width: 550px; 
+    bottom: 20%;   
+  }
+  .box5 .img-porsche{
+    width: 500px;
+    left: 10%;
+    bottom: 20%;
+  }
+  .box6 .img-porsche{
+    width: 600px;
+    left: 3%;
+    bottom: 10%;
+  }
+}
+  
+/* Additional Media Query */
+@media screen and (max-height:906px) {
+  .vertical-navbar li {
+    padding: 80px;
+  }
+}
+
