@@ -26,8 +26,8 @@ This project was an opportunity to improve the following skills:
 
 ## Screenshots
 
-![Dark Mode](images/visual-sports-cars-dark-mode.png)
-![Light Mode](images/visual-sports-cars-light-mode.png)
+![Light Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visual-sports-cars-light-mode.png)
+![Dark Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visiual-sports-cars-dark-mode.png)
 
 ## Installation
 
