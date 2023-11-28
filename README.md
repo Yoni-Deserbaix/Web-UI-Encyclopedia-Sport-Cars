@@ -2,7 +2,9 @@
 
 The "Web UI Encyclopedia Sport Cars" project is a user interface that allows vertical navigation through various Porsche sports cars using the years on the left, similar to a navigation bar. When a year is selected, the pages scroll either up or down to display the corresponding cars.
 
-In addition to the scrolling functionality, the interface features a button to toggle between dark and light modes to enhance the visual experience for users. This project aims to offer an interactive experience in discovering Porsche sports cars. 🏎️🔍
+In addition to the scrolling functionality, the interface features a button to toggle between dark and light modes to enhance the visual experience for users.
+
+This project aims to offer an interactive experience in discovering Porsche sports cars. 🏎️🔍
 
 ## Technologies Used
 
@@ -16,7 +18,9 @@ The use of jQuery facilitated the implementation of animations and enhanced my f
 
 ### Limitations
 
-Currently, the project is not suitable for mobile devices and tablets due to the increased complexity of responsive design, requiring a significant number of CSS lines. Priority was given to developing skills in JavaScript, jQuery, and interactive design. An important observation was that working on CSS took more time than JavaScript in this context. 📱⚠️
+Currently, the project is not suitable for mobile devices and tablets due to the increased complexity of responsive design, requiring a significant number of CSS lines. Priority was given to developing skills in JavaScript, jQuery, and interactive design. 📱⚠️
+
+An important observation was that working on CSS took more time than JavaScript in this context. 
 
 ## Learning Objectives
 
@@ -42,3 +46,7 @@ This project was an opportunity to improve the following skills:
 ## Contributions
 
 Contributions aimed at improving the project structure are welcome. I'm seeking advice to develop my CSS skills. Should I learn a specific framework to facilitate the process of creating more responsive interfaces? Your suggestions and advice are appreciated! 
+
+## Author 
+
+This project was created by me. Feel free to reach out for any inquiries or collaboration opportunities.
