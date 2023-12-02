@@ -6,7 +6,7 @@ In addition to the scrolling functionality, the interface features a button to t
 
 This project aims to offer an interactive experience in discovering Porsche sports cars. 🏎️🔍
 
-## Technologies Used
+## Technologies Used 🛠
 
 The project was developed using the following technologies:
 - HTML
@@ -14,7 +14,7 @@ The project was developed using the following technologies:
 - JavaScript
 - jQuery.
 
-The use of jQuery facilitated the implementation of animations and enhanced my front-end animation skills. ✨
+The use of jQuery facilitated the implementation of animations and enhanced my front-end animation skills. 🌟
 
 ### Limitations
 
@@ -28,7 +28,7 @@ This project was an opportunity to improve the following skills:
 - Developing JavaScript skills and using libraries such as jQuery.
 - Designing and developing interactive interfaces. 🖥️💡
 
-## Screenshots
+## Screenshots 📸
 
 ![Light Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visual-sports-cars-light-mode.png)
 ![Dark Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visiual-sports-cars-dark-mode.png)
