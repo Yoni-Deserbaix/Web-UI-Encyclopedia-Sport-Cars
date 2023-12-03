@@ -9,10 +9,11 @@ This project aims to offer an interactive experience in discovering Porsche spor
 ## Technologies Used 🛠
 
 The project was developed using the following technologies:
-- HTML
-- CSS
-- JavaScript
-- jQuery.
+- HTML  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="15" alt="html5 logo"  />
+- CSS <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="15" alt="css3 logo"  />
+- JavaScript  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="15" alt="javascript logo"  />
+- jQuery.   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="15" alt="jquery logo"  />
+
 
 The use of jQuery facilitated the implementation of animations and enhanced my front-end animation skills. 🌟
 
@@ -35,7 +36,7 @@ This project was an opportunity to improve the following skills:
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars.git`
+1. Clone the repository to your local machine  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> : `git clone https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars.git`
 2. Open `index.html` in your browser. 🌐
 
 ## Usage
