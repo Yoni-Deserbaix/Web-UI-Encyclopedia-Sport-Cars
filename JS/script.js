@@ -71,7 +71,7 @@ $(document).ready(function () {
     animateImages(imagesAnimations[index]); // Animating the image based on the clicked index
   });
 
-  // Function to animate the navba
+  // Function to animate the navbar
   function animateNavbar(animation) {
     $($navbar).animate({ top: animation }, "slow");
   }
