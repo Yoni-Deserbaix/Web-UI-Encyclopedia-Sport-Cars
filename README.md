@@ -27,16 +27,16 @@ An important observation was that working on CSS took more time than JavaScript 
 
 This project was an opportunity to improve the following skills:
 - Developing JavaScript skills and using libraries such as jQuery.
-- Designing and developing interactive interfaces. 🖥️💡
+- Designing and developing interactive interfaces. 🖥️
 
 ## Screenshots 📸
 
-![Light Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visual-sports-cars-light-mode.png)
-![Dark Mode](https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visiual-sports-cars-dark-mode.png)
+![Light Mode](https://github.com/Yoni-Deserbaix/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visual-sports-cars-light-mode.png)
+![Dark Mode](https://github.com/Yoni-Deserbaix/Web-UI-Encyclopedia-Sport-Cars/blob/main/Screenshots/visiual-sports-cars-dark-mode.png)
 
 ## Installation
 
-1. Clone the repository to your local machine  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> : `git clone https://github.com/YD-SavvyDev/Web-UI-Encyclopedia-Sport-Cars.git`
+1. Clone the repository to your local machine  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo"  /> : `git clone https://github.com/Yoni-Deserbaix/Web-UI-Encyclopedia-Sport-Cars.git`
 2. Open `index.html` in your browser. 🌐
 
 ## Usage
